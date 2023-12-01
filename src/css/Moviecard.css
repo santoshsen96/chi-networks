@@ -1,0 +1,43 @@
+.movie-card {
+    width: 100%;
+    max-width: 200px; /* Set your desired max-width for each card */
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.05); /* Adjust the scale factor for zoom effect */
+  }
+  
+  .movie-card a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .movie-card h3 {
+    margin: 10px 0;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .movie-card button {
+    display: block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .movie-card button:hover {
+    background-color: #2980b9;
+  }
+  

@@ -1,0 +1,34 @@
+/* Basic styling for the Navbar */
+div {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  /* Styling for the links */
+  Link {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  Link:hover {
+    background-color: #555;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 600px) {
+    div {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    Link {
+      margin-top: 5px;
+    }
+  }
+  
